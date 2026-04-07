@@ -17,7 +17,7 @@
         android:layout_gravity="top"
         android:contentDescription="@string/image_view"
         android:gravity="center_vertical|center_horizontal|center"
-        android:src="@raw/front_splash" />
+        android:src="@drawable/splash" />
 
     <TextView
         android:id="@+id/msw_loading_text"
