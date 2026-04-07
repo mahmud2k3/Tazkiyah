@@ -4,33 +4,30 @@
     android:id="@+id/msw_welcome"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorPrimary"
-    android:gravity="center_vertical|center_horizontal|center"
+    android:background="@drawable/gradient_bg"
+    android:gravity="center"
     android:visibility="visible">
 
     <ImageView
         android:id="@+id/msw_logo"
-        android:layout_width="275dip"
-        android:layout_height="100dip"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:layout_gravity="top"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:adjustViewBounds="true"
         android:contentDescription="@string/image_view"
-        android:gravity="center_vertical|center_horizontal|center"
-        android:src="@drawable/splash" />
+        android:src="@drawable/logo_white" />
 
     <TextView
         android:id="@+id/msw_loading_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
         android:layout_below="@+id/msw_logo"
         android:layout_marginTop="26dp"
-        android:gravity="center_vertical|center_horizontal|center"
+        android:gravity="center"
         android:text="@string/loading_app"
         android:textColor="@color/textColorPrimary"
         android:textSize="18sp"
-        android:textStyle="normal|bold"
+        android:textStyle="bold"
         tools:ignore="NotSibling" />
 
 </RelativeLayout>
