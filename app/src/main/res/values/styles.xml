@@ -3,7 +3,7 @@
 		<item name="colorPrimary">@color/colorPrimary</item>
 		<item name="colorPrimaryDark">@color/colorPrimaryDark</item>
 		<item name="colorAccent">@color/colorAccent</item>
-		<item name="android:windowBackground">@drawable/background_splash</item>
+		<item name="android:windowBackground">@drawable/splash</item>
 		<item name="android:windowActionBar">false</item>
 		<item name="popupTheme">@style/AppTheme.PopupOverlay</item>
 		<item name="android:windowLightStatusBar">true</item>
@@ -13,7 +13,7 @@
 		<item name="colorPrimary">@color/colorPrimary</item>
 		<item name="colorPrimaryDark">@color/colorPrimaryDark</item>
 		<item name="colorAccent">@color/colorAccent</item>
-		<item name="android:windowBackground">@drawable/background_splash</item>
+		<item name="android:windowBackground">@drawable/splash</item>
 		<item name="android:windowActionBar">false</item>
 	</style>
 
