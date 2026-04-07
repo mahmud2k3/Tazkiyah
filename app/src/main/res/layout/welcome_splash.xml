@@ -1,31 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/msw_welcome"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@drawable/gradient_bg"
-    android:gravity="center"
-    android:visibility="visible">
+    android:layout_height="match_parent">
 
     <ImageView
-    android:id="@+id/msw_logo"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:scaleType="centerCrop"
-    android:src="@drawable/splash" />
-
-    <TextView
-        android:id="@+id/msw_loading_text"
+        android:id="@+id/msw_logo"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/msw_logo"
-        android:layout_marginTop="26dp"
-        android:gravity="center"
-        android:text="@string/loading_app"
-        android:textColor="@color/textColorPrimary"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        tools:ignore="NotSibling" />
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/splash" />
 
 </RelativeLayout>
