@@ -10,7 +10,7 @@
         android:layout_height="100dip"
         android:layout_centerInParent="true"
         android:contentDescription=""
-        android:src="@raw/front_splash"
+        android:src="@drawable/splash"
         tools:ignore="ContentDescription" />
 
 </RelativeLayout>
